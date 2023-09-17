@@ -5,8 +5,8 @@
 	}
 ********************************/
 
-const greet = (name) => console.log(`Hello, ${name}!`);
-greet("Bashayer");
+const greet = (name) => `Hello, ${name}!`;
+console.log(greet("Bashayer"));
 // Q2) Write a simple arrow function that takes two parameters and returns their sum.
 
 const totOf2 = (num1, num2) => num1 + num2;
@@ -15,6 +15,8 @@ console.log(totOf2(10, 20));
 // Q3) Write a simple arrow function that squares a number.
 
 const squareAnum = (numsq) => Math.pow(numsq, 2);
+
+//or return n**2 power of
 
 console.log(squareAnum(2));
 
